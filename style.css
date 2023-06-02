@@ -1,11 +1,22 @@
+/* colours dark 27374D mid dark 526D82 mid light 9DB2BF light DDE6ED */
+
+
+
 *{
-    background-color: bisque;
+    background-color: DDE6ED;
     text-align: center;
+    font-family: 'Bitter', serif;
+    color: #526D82;
 }
-h1{
+
+/* h1{
     
+   
 }
 
 h2{
-    color: cadetblue;
+   
 }
+a{
+    
+} */
