@@ -1,35 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio Website</title>
+    <title>Blackthorn's Dev Diary</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!-- IMPORT BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
-    <div id="headingdiv">
-        <h1>Blackthorn's Dev Diary</h1>
-        <hr>
-    </div>  
-    <h2>Professional learning programming, web, and game dev on the side</h2>
-    <div id="linksdiv">
-        <hr>
-        <a href="./public/webdevportfolio.html"><h3>Web Development Portfolio</h3></a>
-        <hr>
-        <a href="./public/gamedev.html"><h3>Game Dev </h3></a>
-        <hr>
-        <a href="./public/programmingdev.html"><h3>Programming Dev</h3></a>
-        <hr>
-    </div>
-    <a href="./public/about.html">About</a>
-    <a href="./public/contact.html">Contact</a>
+    <!-- NAV BAR -->
+    <section>
+        <div class="container">
+            <header class="d-flex justify-content-center py-3">
+              <ul class="nav nav-pills">
+                <li class="nav-item"><a href="./index.html" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="./public/devportfolio.html" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="./public/gamedev.html" class="nav-link">Game Dev</a></li>
+                <li class="nav-item"><a href="./public/webdevdiary.html" class="nav-link">Web Dev</a></li>
+                <li class="nav-item"><a href="./public/about.html" class="nav-link">About</a></li>
+              </ul>
+            </header>
+          </div>
+    </section>
 
+    <!-- TITLE -->
+    <section>
+        <div class="bg-dark text-secondary px-4 py-5 text-center">
+            <div class="py-5">
+              <h1 class="display-5 fw-bold text-white">Blackthorn's Dev Diary </h1>
+              <div class="col-lg-6 mx-auto">
+                <p class="fs-5 mb-4">Professional learning web development, game programming, and a sprinkling of hacking</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                  <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"><a href="./public/devportfolio.html">Portfolio</a> </button>
+                  <button type="button" class="btn btn-outline-light btn-lg px-4">Diary</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <section>
+        <div class="container">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="./public/devportfolio.html" class="nav-link px-2 text-body-secondary">Portfolio</a></li>
+                <li class="nav-item"><a href="./public/gamedev.html" class="nav-link px-2 text-body-secondary">Game Dev</a></li>
+                <li class="nav-item"><a href="./public/webdevdiary.html" class="nav-link px-2 text-body-secondary">Web Dev</a></li>
+                <li class="nav-item"><a href="./public/about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+              </ul>
+              <p class="text-center text-body-secondary">© Blackthorn.Cyber 2023</p>
+            </footer>
+          </div>
+
+    </section>
+    <!-- BOOTSTRAP FUNCTIONALITY -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
-<footer>
-    © Blackthorn.Cyber 2023
-</footer>
+
 </html>
 
